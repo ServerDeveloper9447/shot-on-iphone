@@ -1,0 +1,23 @@
+{
+  "name": "shot-on-iphone",
+  "version": "1.0.1",
+  "description": "A package that fetches funny shot on iphone videos from shot-on-iphone.studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Shot",
+    "on",
+    "iphone",
+    "Shot-on-iphone",
+    "iphone",
+    "funny",
+    "meme"
+  ],
+  "author": "Server Developer#9447 aka Duck Dev",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
