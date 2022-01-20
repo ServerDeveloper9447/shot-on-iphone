@@ -4,7 +4,7 @@ We all know the meme. This small package returns random funny shot on iPhone vid
 ---
 
 ## Disclaimer
-None of the videos are owned by me. This package just fetched the videos from **[shot-on-iphone.studio]**. All credit goes to them.
+None of the videos are owned by me. This package just fetches the videos from **[shot-on-iphone.studio]**. All credit goes to them.
 
 ---
 
@@ -17,7 +17,7 @@ See the following code snippet
     // importing the package
     const soi = require('shot-on-iphone')
 
-    const result = await soi.getVideo()
+    const result = await soi()
     // logging the video url to console
     console.log(result)    
   })()
@@ -25,14 +25,14 @@ See the following code snippet
 Or using `then`
 ```js
     const soi = require('shot-on-iphone')
-    soi.getVideo()
+    soi()
     .then(result => console.log(result))
 ```
 ---
 ### Promoted
 ***[CraftBlur Bot]** - A multipurpose bot*<br>
-***[Soumalyaplayz API]** - Yet Another General Purpose API*
+***[SP-API]** - Yet Another General Purpose API*
 
 [shot-on-iphone.studio]: https://shot-on-iphone.studio
 [CraftBlur Bot]: https://www.craftblurbot.cf
-[Soumalyaplayz API]: https://api.spapi.ga
+[SP-API]: https://www.spapi.ga
